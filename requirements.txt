@@ -1,7 +1,6 @@
 streamlit
 requests
 numpy
-opencv-python
 pillow
 tensorflow
 logging
