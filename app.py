@@ -2,7 +2,6 @@ import streamlit as st
 import requests
 import logging
 import numpy as np
-import cv2
 from typing import Optional
 from PIL import Image
 import tensorflow as tf
@@ -100,8 +99,8 @@ def main():
         if image is not None:
             st.image(image, caption="Uploaded Image", use_container_width=True)
             image = Image.open(image)
+            image = image.resize((160, 160), Image.Resampling.LANCZOS) # or other resampling methods
             image = np.array(image)
-            image = cv2.resize(image, (160, 160))
             image = np.expand_dims(image, axis=0)
 
             # Predict image class
