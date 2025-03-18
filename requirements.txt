@@ -1,7 +1,1 @@
-streamlit
-requests
-numpy
-pillow
-tensorflow
-logging
-typing-extensions
+pip==24.2
