@@ -88,7 +88,7 @@ def main():
     st.title(" KitarBot 🤖♻️")
     st.write("### 🤔 Unsure about recycling your items? Just text me your questions or upload a picture of your item here!")
     st.markdown('''📢 While KitarBot strives to provide accurate and useful information, it may not always be accurate or completely up to date. 
-                Your patience and understanding are greatly appreciated as the RecycleBot does its best to assist you.''')
+                Your patience and understanding are greatly appreciated as the KitarBot does its best to assist you.''')
     
     if "messages" not in st.session_state:
         st.session_state.messages = []
