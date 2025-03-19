@@ -18,7 +18,8 @@ TWEAKS = {
   "GoogleGenerativeAIModel-imboU": {},
   "Prompt-upBoA": {},
   "Memory-1YMJe": {},
-  "TextInput-KlD03": {}
+  "TextInput-KlD03": {},
+  "TextInput-ZmmJM": {}
 }
 
 # Function to run the flow
@@ -84,9 +85,9 @@ model = load_model()
 
 # Function to run the flow
 def main():
-    st.title(" RecycleBot 🤖♻️")
+    st.title(" KitarBot 🤖♻️")
     st.write("### 🤔 Unsure about recycling your items? Just text me your questions or upload a picture of your item here!")
-    st.markdown('''📢 While RecycleBot strives to provide accurate and useful information, it may not always be accurate or completely up to date. 
+    st.markdown('''📢 While KitarBot strives to provide accurate and useful information, it may not always be accurate or completely up to date. 
                 Your patience and understanding are greatly appreciated as the RecycleBot does its best to assist you.''')
     
     if "messages" not in st.session_state:
